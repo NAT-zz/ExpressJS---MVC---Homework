@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "npm start": "nodemon --inspect ./index.js"
+    "start": "nodemon --inspect ./index"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "express": "^4.18.1"
   }
 }
