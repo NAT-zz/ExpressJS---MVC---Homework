@@ -7,7 +7,14 @@ const myGroup = [
     },
 ]
 const fullMember = [
-    "19110331", "19110493"
+    { 
+        id: "19110331",
+        name: "Đỗ Cao Minh Chí" 
+    },
+    {
+        id: "19110493",
+        name: "Lê Văn Tuấn"
+    } 
 ]
 
 module.exports =  { myGroup, fullMember }
