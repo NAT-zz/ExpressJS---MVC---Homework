@@ -8,9 +8,9 @@ function getMember(req, res, next){
     })
     
     if (member)
-    res.status(200).json(member)
+        res.status(200).json(member)
     else
-    res.status(200).json({error: 'not valid'})
+        res.status(200).json({error: 'not valid'})
 }
 // + /<MSSV>/<id> : nếu POST thì add item mới vào mygroup, item post dạng json, 
 // item phải là MSSV của thành viên nhóm trong đề tài cuối kỳ và chưa có trong danh sách mygroup. 
